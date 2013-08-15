@@ -1,0 +1,66 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Renderer - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Wlaschin\LOCALS~1\Temp\RSP7D.tmp" with contents
+[
+/nologo /MD /W3 /GX /Od /I "." /I "..\Include" /I "..\Utilities" /I "C:\Python\Python23\include" /I "C:\Python23\include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "RENDERER_EXPORTS" /FAs /Fa"Release/" /FR"Release/" /Fp"Release/Renderer.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\Projects\Visionary\Code\Renderer\FunctionTable.cpp"
+"E:\Projects\Visionary\Code\Renderer\Renderer.cpp"
+"E:\Projects\Visionary\Code\Renderer\Viewport.cpp"
+"E:\Projects\Visionary\Code\Utilities\Camera.cpp"
+"E:\Projects\Visionary\Code\Utilities\Matrix.cpp"
+"E:\Projects\Visionary\Code\Utilities\Vector.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Wlaschin\LOCALS~1\Temp\RSP7D.tmp" 
+Creating temporary file "C:\DOCUME~1\Wlaschin\LOCALS~1\Temp\RSP7E.tmp" with contents
+[
+/nologo /MD /W3 /GX /Od /I "." /I "..\Include" /I "..\Utilities" /I "C:\Python\Python23\include" /I "C:\Python23\include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "RENDERER_EXPORTS" /FAs /Fa"Release/" /FR"Release/" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\Projects\Visionary\Code\Renderer\PythonImport.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Wlaschin\LOCALS~1\Temp\RSP7E.tmp" 
+Creating temporary file "C:\DOCUME~1\Wlaschin\LOCALS~1\Temp\RSP7F.tmp" with contents
+[
+/nologo /MD /W3 /GX /Od /I "." /I "..\Include" /I "..\Utilities" /I "C:\Python\Python23\include" /I "C:\Python23\include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "RENDERER_EXPORTS" /FAs /Fa"Release/" /FR"Release/" /Fp"Release/Renderer.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\Projects\Visionary\Code\Renderer\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Wlaschin\LOCALS~1\Temp\RSP7F.tmp" 
+Creating temporary file "C:\DOCUME~1\Wlaschin\LOCALS~1\Temp\RSP80.tmp" with contents
+[
+python23.lib parser.lib OpenGL32.lib GLu32.lib GLaux.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:"Release/Renderer.pdb" /debug /machine:I386 /def:".\Exports.def" /out:"Release/Renderer.dll" /implib:"Release/Renderer.lib" /libpath:"C:\Python23\libs" 
+.\Release\FunctionTable.obj
+.\Release\PythonImport.obj
+.\Release\Renderer.obj
+.\Release\StdAfx.obj
+.\Release\Viewport.obj
+.\Release\Camera.obj
+.\Release\Matrix.obj
+.\Release\Vector.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\Wlaschin\LOCALS~1\Temp\RSP80.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+FunctionTable.cpp
+Renderer.cpp
+Viewport.cpp
+Camera.cpp
+Matrix.cpp
+Vector.cpp
+Compiling...
+PythonImport.cpp
+Linking...
+   Creating library Release/Renderer.lib and object Release/Renderer.exp
+
+
+
+<h3>Results</h3>
+Renderer.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

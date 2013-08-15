@@ -1,0 +1,4 @@
+LIBRARY COLLISION
+
+EXPORTS
+	GetFunctionTable=Collision_GetFunctionTable @1

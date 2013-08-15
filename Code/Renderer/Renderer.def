@@ -1,0 +1,4 @@
+LIBRARY RENDERER
+
+EXPORTS
+	GetFunctionTable=Render_GetFunctionTable @1
